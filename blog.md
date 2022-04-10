@@ -47,6 +47,7 @@ An example after running these commands:
 ![commands2](commands2.PNG)
 
 * Now we need to copy the public (not the private) key to the .ssh directory of your user account on the server.
+
 ![commands3](commands3.PNG)
 * Once you do this, you should be able to ssh or scp from this client to the server without entering your password.
 
