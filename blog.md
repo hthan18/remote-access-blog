@@ -18,7 +18,7 @@
     * Since this is your first time connecting to the server, input yes to the messages you are prompted with.
 * Now you are connected to a server in the CSE basement and any commands you run will run on that computer!
 
-`Your terminal should similar to this`
+`Your terminal should look similar to this`
 ![vscodescreenshot](remote.png)
 
 **Third Step:** Trying Some Commands
