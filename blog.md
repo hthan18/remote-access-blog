@@ -33,7 +33,7 @@ An example after running these commands:
 **Fourth Step:** Moving Files with scp
 *  To copy a file from your computer to a remote computer we will use the command **scp**, and we will always run it from the client.
     * Create a file on your computer called WhereAmI.java and put the following contents into it:
-        * ![commands4](commands4.png)
+        * ![commands4](commands4.PNG)
 * Run it using javac and java on your computer, then, in the terminal from the directory where you made this file, run this command (as usually, using your username):
     * scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/
 * You should be prompted for a password just like when you log in with ssh.Then, log into ieng6 with ssh again, and use ls. You should see the file there in your home directory! Now you can run it on the ieng6 computer using javac and java.
@@ -44,10 +44,10 @@ An example after running these commands:
 * A program, called ssh-keygen, creates a pair of files called the public key and private key.
 * You copy the public key to a particular location on the server, and the private key in a particular location on the client. Then, the ssh command can use the pair of files in place of your password.
 * Here’s what you should run to set this up:
-![commands2](commands2.png)
+![commands2](commands2.PNG)
 
 * Now we need to copy the public (not the private) key to the .ssh directory of your user account on the server.
-![commands3](commands3.png)
+![commands3](commands3.PNG)
 * Once you do this, you should be able to ssh or scp from this client to the server without entering your password.
 
 **Sixth Step:** Optimizing Remote Running
