@@ -9,7 +9,7 @@
 * Once installed correctly and opened, your screen should look like the screenshot below.
 ![vscodescreenshot](unnamed.png)
 
-**Second Step** Remotely Connecting
+**Second Step:** Remotely Connecting
 * If you are on Windows, install OpenSSH which is a program that can connect your computer to other computers that have course-specific accounts.
     * [Install OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 * Look up your course-specific account for CSE15L here: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
